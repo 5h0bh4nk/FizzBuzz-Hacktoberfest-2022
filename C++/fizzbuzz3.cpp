@@ -2,14 +2,14 @@
 using namespace std;
 
 int main(){
+    int cnt3 = 0 , cnt5 = 0;
+    string str = "";
     for(int i = 1 ; i <= 100 ; i++){
-        string str = "";
-        if(i % 3 == 0){
-            str += "Fizz";
-        }
-        if(i % 5 == 0){
-            str += "Buzz";
-        }
+        cnt3++;
+        cnt5++;
+        str = "";
+        if(cnt3 == 3) { str += "Fizz"; cnt3 = 0; }
+        if(cnt5 == 5) { str += "Buzz"; cnt5 = 0; }
         if(str == ""){
             cout << i << '\n';
         }
@@ -17,5 +17,6 @@ int main(){
             cout << str << '\n';
         }
     }
+
     return 0;
 }
