@@ -1,0 +1,4 @@
+# based on programming language added
+*.out
+*.exe
+*.pyc
