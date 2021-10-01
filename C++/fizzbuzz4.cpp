@@ -26,6 +26,7 @@ void fizzbuzz(){
         if ((i&(i-1))==0)
             cout<<"FizzBuzz "<<i<<"\n";
     }
+    return;
 }
 
 int main(){
