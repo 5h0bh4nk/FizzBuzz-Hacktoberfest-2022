@@ -1,6 +1,6 @@
 import java.util.TreeMap;
 
-public class FizzBuzz {
+public class FizzBuzztreemap {
 	public static void main(String[] args) {
 		TreeMap<Integer, Object> map = new TreeMap<>();
 		for (int i = 1; i <= 100; i++) {
