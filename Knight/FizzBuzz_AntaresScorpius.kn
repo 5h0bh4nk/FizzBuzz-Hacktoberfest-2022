@@ -1,0 +1,13 @@
+# FizzBuzz Program written in Knight
+# @Author @AntaresScorpius
+
+; = x 1
+: WHILE (> 101 x) {
+    ; OUTPUT (
+        IF (!% x 3) { "Fizz" }
+        IF (!% x 5) { "Buzz" }
+        IF (!% x 15) { "FizzBuzz" }
+        { x }
+    : )
+    : = x + x 1
+: }
