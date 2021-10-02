@@ -1,0 +1,9 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "main": "fizzbuzz.js",
+  "author": "Naman Tamrakar <namantam1@gmail.com>",
+  "scripts": {
+    "start": "node fizzbuzz.js"
+  }
+}
