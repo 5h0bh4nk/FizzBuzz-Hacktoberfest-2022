@@ -1,0 +1,20 @@
+/*
+    FiZZBUZZ
+    
+    FizzBuzz is a program that prints the numbers from 1 to 100. But for multiples of three it prints “Fizz” 
+    instead of the number and for the multiples of five, it prints “Buzz”. For numbers which are multiples 
+    of both three and five it prints “FizzBuzz”.
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    for(int i = 1 ; i < 101 ; i++){
+       if(!(i%15)) cout<<"FizzBuzz\n";
+	   else if(!(i%3)) cout<<"Fizz\n";
+	   else if(!(i%5)) cout<<"Buzz\n";
+	   else cout<<i<<"\n";
+    }
+    return 0;
+}
