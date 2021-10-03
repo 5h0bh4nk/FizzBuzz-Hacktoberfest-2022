@@ -24,14 +24,21 @@ map<int,string> mp;
 
 void fizzbuzz(){
     for (int i=0;i<100;i++){
-        if (i%15==0)
+        int k=(i%15==0)?0:(i%3==0)?1:(i%5==0)?2:3;
+            switch (k){
+        case (0):
             cout<<mp[15]<<endl;
-        else if (i%3==0)
+            break;
+        case (1):
             cout<<mp[3]<<endl;
-        else if (i%5==0)
+            break;
+        case (2):
             cout<<mp[5]<<endl;
-        else
+            break;
+        default:
             cout<<i<<endl;
+            }
+
     }
     return;
 }
