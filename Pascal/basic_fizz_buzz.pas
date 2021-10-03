@@ -1,5 +1,5 @@
 // Basic FizzBuzz with Vintage Language (Pascal)
-// Author : Muhammad Raihan Satrio
+// Author : satrio-pamungkas
 
 program basic_fizz_buzz(output);
 var
