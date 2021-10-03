@@ -1,3 +1,6 @@
+// Basic FizzBuzz with Vintage Language (Pascal)
+// Author : Muhammad Raihan Satrio
+
 program basic_fizz_buzz(output);
 var
   i: integer;
