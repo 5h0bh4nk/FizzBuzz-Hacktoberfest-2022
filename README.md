@@ -25,7 +25,7 @@ This repository aligns with [the values of the Hacktoberfest](https://hacktoberf
 
 ## :wrench: Steps to add your solution:
 
-1. [Fork](https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/fork) this repository.
+1. Star and [Fork](https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/fork) this repository.
 
 2. Add your solution to the folder with the name of your language. If there is no folder for your language yet, create one! 
 
