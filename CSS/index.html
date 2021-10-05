@@ -1,0 +1,36 @@
+<!-- 
+Using nth child property to print the k*3rd and k*5th children as Fizz Buzz respectively
+Author: Sufiyan 
+-->
+<html>
+    <head>
+        <style>
+            li:nth-child(3n),
+            li:nth-child(5n) {
+                list-style: none;
+            }
+
+            li:nth-child(3n):before {
+                content: 'Fizz';
+            }
+
+            li:nth-child(5n):after {
+                content: 'Buzz';
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+        </ol>
+    </body>
+</html>
