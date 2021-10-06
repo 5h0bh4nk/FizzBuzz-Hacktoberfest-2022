@@ -24,6 +24,5 @@ for ($i = 1; $i <= 100; $i++)
     else // print the number        
         echo $i,"  " ;            
 }
- 
-// This code is contributed by m_kit
+
 ?>
