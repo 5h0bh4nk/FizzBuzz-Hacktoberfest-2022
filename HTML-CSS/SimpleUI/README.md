@@ -10,10 +10,11 @@
 - innerHTML to change text content 
 - use SetTimeOut to give time lapse of 0.5 second between two values
 
-## Link to the site 
-- https://5h0bh4nk.github.io/FizzBuzz-Hacktoberfest-2021/HTML-CSS/SimpleUI/index.html
+## Links
+- <a href="https://5h0bh4nk.github.io/FizzBuzz-Hacktoberfest-2021/HTML-CSS/SimpleUI/index.html"> Preview </a>
+- <a href="https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/tree/master/HTML-CSS/SimpleUI"> Code </a>
 
-Some Screenshots:
+## Some Screenshots:
 
 ![image](https://s3.amazonaws.com/hr-assets/0/1633499922-3ef3d0e4c9-Screenshot2021-10-06112726.jpg)
 
