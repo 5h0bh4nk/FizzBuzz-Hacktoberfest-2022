@@ -60,9 +60,10 @@ Read more about it here: https://www.tomdalling.com/blog/software-design/fizzbuz
 <hr>
 
 ## :trophy: Top 5 personal favorites:
-<sub>Upcoming on new additions ....</sub>
-
-<hr>
+The response was so great that i couldnt choose just 5 . So , here are the top ones :
+- <a href ="https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/issues?q=label%3Atop+is%3Aclosed">Top Solutions / PRs</a>
+- <a href ="https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/issues?q=label%3Aunique+is%3Aclosed">Unique Solutions / PRs</a>
+- <a href ="https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/issues?q=label%3Acreative+is%3Aclosed">Creative Solutions / PRs</a>
 
 ## :question: What do you mean by "creative" solutions?
 
