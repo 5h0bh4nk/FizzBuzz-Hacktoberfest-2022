@@ -1,0 +1,2 @@
+- GitHub repo : [ModiScript](https://github.com/VPanjeta/ModiScript)
+- [ModiScript web UI](https://modiscript.netlify.com/)

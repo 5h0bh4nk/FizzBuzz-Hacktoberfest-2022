@@ -1,0 +1,21 @@
+mitrooon
+
+author "VishwasGajawada" hai
+
+maximum 100 hai
+i 0 hai
+
+jab tak i maximum se zyada hai{
+    agar i modi 3 barabar 0 aur i modi 5 barabar 0 hai{
+        bhaiyo aur behno "FizzBuzz"
+    }nahi toh agar i modi 3 barabar 0 hai{
+        bhaiyo aur behno "Fizz"
+    }nahi toh agar i modi 5 barabar 0 hai{
+        bhaiyo aur behno "Buzz"
+    }nahi toh{
+        bhaiyo aur behno i
+    }
+    i i plus 1 hai
+}
+
+acche din aa gaye
