@@ -70,7 +70,11 @@ The response was so great that i couldnt choose just 5 . So , here are the top o
 Well, I'm not looking for normal solutions. You know, the ones you'd find in a book or so. I'm looking for something interesting! Whether that's a fancy one-liner in the language of your choice, or perhaps a funny [eso-language](https://en.wikipedia.org/wiki/Esoteric_programming_language), or maybe an intentionally weird solution that you don't even quite understand yourself (be sure to document those!). Anyhow, the goal is to have fun and maybe even learn a thing or two. 
 
 ## Maintainers ( lets connect through github 😊 )
-- <a href="https://github.com/5h0bh4nk">Shubhank</a>
+- [Shubhank](https://github.com/5h0bh4nk)
+- [Lokesh Tejavath][https://github.com/lokeshtejavath]
+- [Lakshita Choudhary](https://github.com/LuXtheta)
+- [Manoj Boganadham](https://github.com/ManojBoganadham)
+- [Tanisha Agrawal](https://github.com/Tanisha123543)
 
 
 **Happy hacking!**
