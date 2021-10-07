@@ -79,4 +79,11 @@ Well, I'm not looking for normal solutions. You know, the ones you'd find in a b
 
 **Happy hacking!**
 
+
+## All contributors
+
+<a href = "https://github.com/5h0bh4nk/FizzBuzz-Hacktoberfest-2021/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=5h0bh4nk/FizzBuzz-Hacktoberfest-2021"/>
+</a>
+
 <hr>
