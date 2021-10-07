@@ -1,5 +1,6 @@
 // Example of fizzbuzz using an map loop
 // Author: @augustoscher
+// Hacktoberfest2021
 
 const fillRange = (start, end) => {
   return Array(end - start + 1)
