@@ -71,7 +71,7 @@ Well, I'm not looking for normal solutions. You know, the ones you'd find in a b
 
 ## Maintainers ( lets connect through github 😊 )
 - [Shubhank](https://github.com/5h0bh4nk)
-- [Lokesh Tejavath][https://github.com/lokeshtejavath]
+- [Lokesh Tejavath](https://github.com/lokeshtejavath)
 - [Lakshita Choudhary](https://github.com/LuXtheta)
 - [Manoj Boganadham](https://github.com/ManojBoganadham)
 - [Tanisha Agrawal](https://github.com/Tanisha123543)
