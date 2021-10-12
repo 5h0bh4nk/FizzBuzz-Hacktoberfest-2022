@@ -1,12 +1,19 @@
-# Archit Aggarwal
-for fizzbuzz in range(101):
-    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
-        print("fizzbuzz")
-        continue
-    elif fizzbuzz % 3 == 0:
-        print("fizz")
-        continue
-    elif fizzbuzz % 5 == 0:
-        print("buzz")
-        continue
-    print(fizzbuzz)
+
+from fastapi import FastAPI
+import fastapi
+from typing import Optional
+from pydantic import BaseModel
+
+app = FastAPI()
+
+@app.post('/')
+
+def fizzbuzz():
+    for i in range(1, 101):
+        if(i%3 == 0):
+            return{'Fizz'}
+        elif( i%5 ==0):
+            return{'Buzz'}
+        elif(i%3 == 0 & i%5 ==0):
+            return{'FizzBuzz'}
+            
