@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .heading {
+            background-color: #eee;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .heading .images {
+            width: 95%;
+            margin: auto;
+            max-width: 400px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        img {
+            mix-blend-mode: multiply;
+            width: 100%;
+        }
+        .results{
+            width: 90%;
+            max-width: 600px;
+            margin-left: 80px;
+            line-height: 58px;
+        }
+        .results img{
+            height: 40px;
+            width: auto;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="images">
+            <img src="./fizz.jpg" alt="">
+            <img src="./buzz.jpg" alt="">
+        </div>
+        <h1 class="">FizzBuzz</h1>
+    </div>
+
+    <div class="results">
+        <ol id="list1"></ol>
+    </div>
+
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+      
+    <script>
+        var count = 0;
+        const list1 = document.getElementById('list1');
+      var interval =  setInterval(() => {
+
+            count++;
+
+            if (count % 3 === 0 && count % 5 === 0) {
+                list1.innerHTML += '<li><img src="./fizz.jpg" alt=""><img style="margin-left:-10px" src="./buzz.jpg" alt="">(FizzBuzz)';
+
+            } 
+            else if (count % 5 === 0) {
+                list1.innerHTML += '<li><img src="./buzz.jpg" alt="">(Buzz)';
+
+            } 
+            else if (count % 3 === 0) {
+                list1.innerHTML += '<li><img src="./fizz.jpg" alt="">(Fizz)';
+
+            } 
+            else {
+                list1.innerHTML += '<li>'+count;
+            }
+            $(document).scrollTop($(document).height());
+            if(count === 100){
+                clearInterval(interval);
+            }
+        }, 300);
+
+    </script>
+</body>
+
+</html>
