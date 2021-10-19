@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Fizzbuzz</title>
+        <link href="{{url_for('static',filename='main.css')}}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title"><span class="fizz">Fizz</span><span class="buzz">Buzz</span></h1>
+            <h3 style="color:white">By Fr4nkl1n-1k3h</h3>
+        </div>
+        <div class="fizzbuzz_container">
+            {% for number in range(101)%}
+                {% if number%5==0 and number%3==0 %}
+                    <p><span class="fizz">Fizz</span><span class="buzz">Buzz</span><span class="normal">({{number}})</span></p>
+                {% elif number%3==0 %}
+                    <p class = "fizz">Fizz<span class="normal">({{number}})</span></p>
+                {% elif number%5==0 %}
+                    <p class = "buzz">Buzz<span class="normal">({{number}})</span></p>
+                {% else %}
+                    <p class = "normal">{{number}}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </body>
+</html>
