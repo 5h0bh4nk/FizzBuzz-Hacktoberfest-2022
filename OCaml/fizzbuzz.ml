@@ -1,9 +1,6 @@
 let fizzbuzz x = 
   if x mod 3 = 0 then 
     if x mod 5 = 0 then
-      print_string ("fizzbuzz")let fizzbuzztest x = 
-  if x mod 3 = 0 then 
-    if x mod 5 = 0 then
       print_string ("fizzbuzz")
     else
         print_string ("fizz")
@@ -20,4 +17,4 @@ let rec counter n =
     | _ -> counter (n - 1) ; 
            fizzbuzz n ;;
 
-counter_fizzbuzz 100
+counter 100
