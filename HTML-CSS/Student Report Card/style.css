@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0; 
+  }
+  input[type=number] {
+      -moz-appearance:textfield; /* Firefox */
+    font-size:24px;
+  }
+  textarea:focus, input:focus {
+      font-family: monospace;
+  }
+  
+  input, select, textarea{
+      font-family:monospace;
+  }
+  h2{
+    padding:20px;
+    text-align:center;
+    font-family: monospace;
+    font-size:30px;
+    background-color:#fbff0b;
+  }
+  p{
+    text-align:center;
+    font-family:monospace;
+    font-size:20px;
+  }
+  table {
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    font-family:monospace;
+    font-size:25px;
+  }
+  
+  td, th {
+    border: 2px solid;
+    text-align: center;
+    padding: 8px;
+  }
+  th{
+    background-color:#4c77d4;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #4c77d4;
+  }
+  
+  label{
+    padding:10px;
+  }
+  
+  input:in-range{
+    background-color: rgb(51, 165, 50);
+  }
+  
+  input:out-of-range{
+    background-color:rgb(187,30,16);
+  }
+  
+  input:in-range + label::after {
+    content: 'PASS';
+  }
+  
+  input:out-of-range + label::after {
+    content: 'FAIL';
+  }
