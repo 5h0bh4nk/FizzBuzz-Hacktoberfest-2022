@@ -18,6 +18,9 @@ const FizzBuzz = (len)=>{
         }else if(i%3==0){
             process.stdout.write("BUZZ ")
             list.push(buzz)
+        }else {
+            process.stdout.write(i+" ")
+            list.push(i)
         }
     }
 }
