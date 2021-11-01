@@ -14,6 +14,14 @@ Submit creative FizzBuzz solutions in any language you want!
 
 <hr>
 
+# :exclamation: UPDATE 
+Hacktoberfest timeline has ended but the open source community still welocomes u to be a part of it through various projects and organisations . We will thus not be accepting any more responses . It had been a great month considering the participation of all the maintainers and contributors . Hope to work with u all next year with a different project .
+**STATS**
+- total PRs : 140+
+- total issues created : 5+
+- Total successful contributors : 65+
+- total maintainers : 5
+
 ## Maintainers ( lets connect through github 😊 )
 - [Shubhank](https://github.com/5h0bh4nk)
 - [Lokesh Tejavath](https://github.com/lokeshtejavath)
