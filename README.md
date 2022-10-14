@@ -1,7 +1,8 @@
 # :jack_o_lantern: Hacktoberfest 2021 FizzBuzz
 
 <p align="center">
-<img height="150" width="auto" src="https://user-images.githubusercontent.com/64991656/135403993-8436cfd2-5314-4c03-8509-d33e51c565b2.png" /><br>
+
+<img height="150" width="auto" src="https://user-images.githubusercontent.com/62099471/195884236-3f3cae24-48c9-483b-9471-21021076b7db.png" /><br>
 Submit creative FizzBuzz solutions in any language you want! 
 </p>
 
