@@ -9,16 +9,15 @@ zero = 0
 five = 5
 
 # loopin fizzbuzz
-while fizzin:
-    for fizzbuzz in rangin:
-        if fizzbuzz % three == zero and fizzbuzz % five == zero:
-            print(keywords[0])
-            continue
-        elif fizzbuzz % three == zero:
-            print(keywords[1])
-            continue
-        elif fizzbuzz % five == zero:
-            print(keywords[2])
-            continue
-        print(fizzbuzz)
-    break
+
+for fizzbuzz in rangin:
+    if fizzbuzz % three == zero and fizzbuzz % five == zero:
+        print(keywords[0])
+        continue
+    elif fizzbuzz % three == zero:
+        print(keywords[1])
+        continue
+    elif fizzbuzz % five == zero:
+        print(keywords[2])
+        continue
+    print(fizzbuzz)
